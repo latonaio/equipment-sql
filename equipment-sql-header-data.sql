@@ -56,6 +56,10 @@ CREATE TABLE `equipment_header_data`
     `EquipmentIsSubAIInstalled` tinyint(1) DEFAULT NULL,
     `EquipHasSubOrdinateEquipment` tinyint(1) DEFAULT NULL,
     `ResponsibleAstronaut`   varchar(20) DEFAULT NULL,
+    `MaximumSupplyOfPowerStorage` varchar(20) DEFAULT NULL,
+    `MaximumSupplyOfPowerStorageUnit` varchar(5) DEFAULT NULL,
+    `AverageMaximumPowerSupplyTime` varchar(20) DEFAULT NULL,
+    `PowerSupplyTimeUnit`    varchar(5) DEFAULT NULL,
     `CreatedDateTime`        varchar(20) DEFAULT NULL,
     `LastModifiedDateTime`   varchar(20) DEFAULT NULL,
     PRIMARY KEY (`Equipment`)
