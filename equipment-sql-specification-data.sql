@@ -28,7 +28,7 @@ CREATE TABLE `equipment_specification_data`
     `OperableTemperatureUnit`          varchar(5) DEFAULT NULL,
     `MeltingLimitTemperature`          varchar(20) DEFAULT NULL,
     `FreezingLimitTemperature`         varchar(20) DEFAULT NULL,
-    `LimitTemperatureUnit`             varchar(20) DEFAULT NULL,
+    `LimitTemperatureUnit`             varchar(5) DEFAULT NULL,
     `CreatedDateTime`                  varchar(20) DEFAULT NULL,
     `LastModifiedDateTime`             varchar(20) DEFAULT NULL,
     PRIMARY KEY (`Equipment`)
