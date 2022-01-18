@@ -23,6 +23,12 @@ CREATE TABLE `equipment_specification_data`
     `HasRouteRecalculationSystem`      tinyint(1) DEFAULT NULL,
     `AfterReturningReusable`           tinyint(1) DEFAULT NULL,
     `AverageThermalConductivity`       varchar(20) DEFAULT NULL,
+    `MaximumOperableTemperature`       varchar(20) DEFAULT NULL,
+    `MinimumOperableTemperature`       varchar(20) DEFAULT NULL,
+    `OperableTemperatureUnit`          varchar(5) DEFAULT NULL,
+    `MeltingLimitTemperature`          varchar(20) DEFAULT NULL,
+    `FreezingLimitTemperature`         varchar(20) DEFAULT NULL,
+    `LimitTemperatureUnit`             varchar(20) DEFAULT NULL,
     `CreatedDateTime`                  varchar(20) DEFAULT NULL,
     `LastModifiedDateTime`             varchar(20) DEFAULT NULL,
     PRIMARY KEY (`Equipment`)
