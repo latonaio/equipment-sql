@@ -5,6 +5,7 @@ CREATE TABLE `equipment_header_data`
     `EquipmentType`               varchar(10) DEFAULT NULL,
     `TechnicalObjectType`         varchar(10) DEFAULT NULL,
     `EquipmentName`               varchar(40) DEFAULT NULL, 
+    `Owner`                       varchar(20) DEFAULT NULL,
     `ValidityEndDate`             varchar(20) DEFAULT NULL,
     `ValidityEndTime`             varchar(20) DEFAULT NULL,
     `ValidityStartDate`           varchar(20) DEFAULT NULL,
